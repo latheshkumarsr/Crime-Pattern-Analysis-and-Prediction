@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_625664e762836b457c74b35f9744be47 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_625664e762836b457c74b35f9744be47" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_625664e762836b457c74b35f9744be47 = L.map(
+                "map_625664e762836b457c74b35f9744be47",
+                {
+                    center: [22.5, 78.9],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2dc812cb69cc3b2798b6f525eeb7d0e2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2dc812cb69cc3b2798b6f525eeb7d0e2.addTo(map_625664e762836b457c74b35f9744be47);
+        
+    
+            var marker_cluster_e7d738c9bb55c252606806968d633457 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_a5d7a9b4a3c5637a83602dff9ba23e4e = L.marker(
+                [28.6273928, 77.1716954],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_b7619673d114fe8766b3421b5774b519 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_539c558a3bd73a45e14d157ee411b0fe = $(`<div id="html_539c558a3bd73a45e14d157ee411b0fe" style="width: 100.0%; height: 100.0%;">Delhi - 5400 incidents</div>`)[0];
+                popup_b7619673d114fe8766b3421b5774b519.setContent(html_539c558a3bd73a45e14d157ee411b0fe);
+            
+        
+
+        marker_a5d7a9b4a3c5637a83602dff9ba23e4e.bindPopup(popup_b7619673d114fe8766b3421b5774b519)
+        ;
+
+        
+    
+    
+            var marker_d105e291c6fab203cfe8103a929ae534 = L.marker(
+                [19.054999, 72.8692035],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_c472497c68c225d942bc9c57d69e73a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b61c24c6cab8730fbc170de8b546a399 = $(`<div id="html_b61c24c6cab8730fbc170de8b546a399" style="width: 100.0%; height: 100.0%;">Mumbai - 4415 incidents</div>`)[0];
+                popup_c472497c68c225d942bc9c57d69e73a3.setContent(html_b61c24c6cab8730fbc170de8b546a399);
+            
+        
+
+        marker_d105e291c6fab203cfe8103a929ae534.bindPopup(popup_c472497c68c225d942bc9c57d69e73a3)
+        ;
+
+        
+    
+    
+            var marker_bcdda981f97e985a8e042803732523c1 = L.marker(
+                [12.9881567, 77.6226],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_601428575a3d42bcf56f876474ad9d49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1ed070efb1c58b7f4817f395b056fb8 = $(`<div id="html_d1ed070efb1c58b7f4817f395b056fb8" style="width: 100.0%; height: 100.0%;">Bangalore - 3588 incidents</div>`)[0];
+                popup_601428575a3d42bcf56f876474ad9d49.setContent(html_d1ed070efb1c58b7f4817f395b056fb8);
+            
+        
+
+        marker_bcdda981f97e985a8e042803732523c1.bindPopup(popup_601428575a3d42bcf56f876474ad9d49)
+        ;
+
+        
+    
+    
+            var marker_8fe4730b68a30d5edbe5d93e22b9b661 = L.marker(
+                [17.360589, 78.4740613],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_31cbe0286ae932033c4753cd0c4db001 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_608d18e74a4a6985e10ee976ea7af917 = $(`<div id="html_608d18e74a4a6985e10ee976ea7af917" style="width: 100.0%; height: 100.0%;">Hyderabad - 2881 incidents</div>`)[0];
+                popup_31cbe0286ae932033c4753cd0c4db001.setContent(html_608d18e74a4a6985e10ee976ea7af917);
+            
+        
+
+        marker_8fe4730b68a30d5edbe5d93e22b9b661.bindPopup(popup_31cbe0286ae932033c4753cd0c4db001)
+        ;
+
+        
+    
+    
+            var marker_9caea37155134832c0c5cdc5f944ccc5 = L.marker(
+                [22.5726459, 88.3638953],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_b23246e773ddb344ac7e6fefc40bf1ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f7d727d572ff1e37c9f68a3ddf962a7 = $(`<div id="html_7f7d727d572ff1e37c9f68a3ddf962a7" style="width: 100.0%; height: 100.0%;">Kolkata - 2518 incidents</div>`)[0];
+                popup_b23246e773ddb344ac7e6fefc40bf1ec.setContent(html_7f7d727d572ff1e37c9f68a3ddf962a7);
+            
+        
+
+        marker_9caea37155134832c0c5cdc5f944ccc5.bindPopup(popup_b23246e773ddb344ac7e6fefc40bf1ec)
+        ;
+
+        
+    
+    
+            var marker_d7208d5750d4e9ab669019bcf4b95e83 = L.marker(
+                [13.0836939, 80.270186],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_ba84148ac5da3a6d012046e04d3e1693 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a2262b4fb3c7b2121b6f0bf51961ab4 = $(`<div id="html_0a2262b4fb3c7b2121b6f0bf51961ab4" style="width: 100.0%; height: 100.0%;">Chennai - 2493 incidents</div>`)[0];
+                popup_ba84148ac5da3a6d012046e04d3e1693.setContent(html_0a2262b4fb3c7b2121b6f0bf51961ab4);
+            
+        
+
+        marker_d7208d5750d4e9ab669019bcf4b95e83.bindPopup(popup_ba84148ac5da3a6d012046e04d3e1693)
+        ;
+
+        
+    
+    
+            var marker_1266a7d2c1e85bb29141d1f55a17a75d = L.marker(
+                [18.5213738, 73.8545071],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_4bf35489295c98a7891797a63f8c5d7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63560cef0d5a2110ecb73412b311b182 = $(`<div id="html_63560cef0d5a2110ecb73412b311b182" style="width: 100.0%; height: 100.0%;">Pune - 2212 incidents</div>`)[0];
+                popup_4bf35489295c98a7891797a63f8c5d7e.setContent(html_63560cef0d5a2110ecb73412b311b182);
+            
+        
+
+        marker_1266a7d2c1e85bb29141d1f55a17a75d.bindPopup(popup_4bf35489295c98a7891797a63f8c5d7e)
+        ;
+
+        
+    
+    
+            var marker_18658f493a455fa077ddabce1b085e14 = L.marker(
+                [23.0215374, 72.5800568],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_400e61a1688f800fb052a818d8718c27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fed940371dce273a061da0bee231fc44 = $(`<div id="html_fed940371dce273a061da0bee231fc44" style="width: 100.0%; height: 100.0%;">Ahmedabad - 1817 incidents</div>`)[0];
+                popup_400e61a1688f800fb052a818d8718c27.setContent(html_fed940371dce273a061da0bee231fc44);
+            
+        
+
+        marker_18658f493a455fa077ddabce1b085e14.bindPopup(popup_400e61a1688f800fb052a818d8718c27)
+        ;
+
+        
+    
+    
+            var marker_e5d492e1cceb8382fbf1a587886b8f6e = L.marker(
+                [26.9154576, 75.8189817],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_e61ba9d164d04f27bd12ceb1a817864e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65b5b41e3ed93df347f65b91f28bd268 = $(`<div id="html_65b5b41e3ed93df347f65b91f28bd268" style="width: 100.0%; height: 100.0%;">Jaipur - 1479 incidents</div>`)[0];
+                popup_e61ba9d164d04f27bd12ceb1a817864e.setContent(html_65b5b41e3ed93df347f65b91f28bd268);
+            
+        
+
+        marker_e5d492e1cceb8382fbf1a587886b8f6e.bindPopup(popup_e61ba9d164d04f27bd12ceb1a817864e)
+        ;
+
+        
+    
+    
+            var marker_0d605f6a8b78d882256baee905f7e66c = L.marker(
+                [26.8381, 80.9346001],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_54ea6aadee6c62e005d44b2e05a6452f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1b17ea361856e0d67c150616077d9b4 = $(`<div id="html_f1b17ea361856e0d67c150616077d9b4" style="width: 100.0%; height: 100.0%;">Lucknow - 1456 incidents</div>`)[0];
+                popup_54ea6aadee6c62e005d44b2e05a6452f.setContent(html_f1b17ea361856e0d67c150616077d9b4);
+            
+        
+
+        marker_0d605f6a8b78d882256baee905f7e66c.bindPopup(popup_54ea6aadee6c62e005d44b2e05a6452f)
+        ;
+
+        
+    
+    
+            var marker_e145ad7359e105f2c3c6b9e7664eafb1 = L.marker(
+                [26.4609135, 80.3217588],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_84c3421e0c3b5050a94c81a43dbab770 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70825ee15f3cb010011063598c7a149e = $(`<div id="html_70825ee15f3cb010011063598c7a149e" style="width: 100.0%; height: 100.0%;">Kanpur - 1112 incidents</div>`)[0];
+                popup_84c3421e0c3b5050a94c81a43dbab770.setContent(html_70825ee15f3cb010011063598c7a149e);
+            
+        
+
+        marker_e145ad7359e105f2c3c6b9e7664eafb1.bindPopup(popup_84c3421e0c3b5050a94c81a43dbab770)
+        ;
+
+        
+    
+    
+            var marker_caa40249081fda14f45407f5badf3b5f = L.marker(
+                [21.2094892, 72.8317058],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_58c9150cf421e98a3827fc9326a26df7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56a583b23a1167b6130342de7a59ceb8 = $(`<div id="html_56a583b23a1167b6130342de7a59ceb8" style="width: 100.0%; height: 100.0%;">Surat - 1111 incidents</div>`)[0];
+                popup_58c9150cf421e98a3827fc9326a26df7.setContent(html_56a583b23a1167b6130342de7a59ceb8);
+            
+        
+
+        marker_caa40249081fda14f45407f5badf3b5f.bindPopup(popup_58c9150cf421e98a3827fc9326a26df7)
+        ;
+
+        
+    
+    
+            var marker_cc752443392b81ee5fe6a777021529b2 = L.marker(
+                [21.1498134, 79.0820556],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_a083911fbd63f8ca53a364d6f3cf5fb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b56001939e79adc98fb58168dbd2c38 = $(`<div id="html_5b56001939e79adc98fb58168dbd2c38" style="width: 100.0%; height: 100.0%;">Nagpur - 1053 incidents</div>`)[0];
+                popup_a083911fbd63f8ca53a364d6f3cf5fb2.setContent(html_5b56001939e79adc98fb58168dbd2c38);
+            
+        
+
+        marker_cc752443392b81ee5fe6a777021529b2.bindPopup(popup_a083911fbd63f8ca53a364d6f3cf5fb2)
+        ;
+
+        
+    
+    
+            var marker_a730ae9c4ebdd1c6fba84b6ae76feaa0 = L.marker(
+                [27.1752554, 78.0098161],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_09791b87975ef0128e805846434b4dec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_362583c81985f3c846541c327f34ffdf = $(`<div id="html_362583c81985f3c846541c327f34ffdf" style="width: 100.0%; height: 100.0%;">Agra - 764 incidents</div>`)[0];
+                popup_09791b87975ef0128e805846434b4dec.setContent(html_362583c81985f3c846541c327f34ffdf);
+            
+        
+
+        marker_a730ae9c4ebdd1c6fba84b6ae76feaa0.bindPopup(popup_09791b87975ef0128e805846434b4dec)
+        ;
+
+        
+    
+    
+            var marker_30b47d161ce5eba62e4b926c809ed376 = L.marker(
+                [30.9090157, 75.851601],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_0db734a5370d75f121885ba4d47af662 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13284ea56d3b6780d458a6980937b0b0 = $(`<div id="html_13284ea56d3b6780d458a6980937b0b0" style="width: 100.0%; height: 100.0%;">Ludhiana - 761 incidents</div>`)[0];
+                popup_0db734a5370d75f121885ba4d47af662.setContent(html_13284ea56d3b6780d458a6980937b0b0);
+            
+        
+
+        marker_30b47d161ce5eba62e4b926c809ed376.bindPopup(popup_0db734a5370d75f121885ba4d47af662)
+        ;
+
+        
+    
+    
+            var marker_c6ab79119418c443c7dc6949822f2416 = L.marker(
+                [17.6935526, 83.2921297],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_2ad9e802314a67f250a2d3466593f00f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1329d81f1505411070ceadf4fa6f0981 = $(`<div id="html_1329d81f1505411070ceadf4fa6f0981" style="width: 100.0%; height: 100.0%;">Visakhapatnam - 728 incidents</div>`)[0];
+                popup_2ad9e802314a67f250a2d3466593f00f.setContent(html_1329d81f1505411070ceadf4fa6f0981);
+            
+        
+
+        marker_c6ab79119418c443c7dc6949822f2416.bindPopup(popup_2ad9e802314a67f250a2d3466593f00f)
+        ;
+
+        
+    
+    
+            var marker_7007d471687adda44f2d1955b6003ea7 = L.marker(
+                [19.1943294, 72.9701779],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_fb57c9dce7b8db6b012759eef9b03115 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6edb73e33d80faacf384d7ebd6e579f6 = $(`<div id="html_6edb73e33d80faacf384d7ebd6e579f6" style="width: 100.0%; height: 100.0%;">Thane - 706 incidents</div>`)[0];
+                popup_fb57c9dce7b8db6b012759eef9b03115.setContent(html_6edb73e33d80faacf384d7ebd6e579f6);
+            
+        
+
+        marker_7007d471687adda44f2d1955b6003ea7.bindPopup(popup_fb57c9dce7b8db6b012759eef9b03115)
+        ;
+
+        
+    
+    
+            var marker_d27aa0d0a8041901b34b1df0b3eb6d3f = L.marker(
+                [28.7749966, 77.4586967],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_a7d6f4cbab938beaa666b839e4bc7db0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_871db38c178bfd0b6b8ee13f99458d63 = $(`<div id="html_871db38c178bfd0b6b8ee13f99458d63" style="width: 100.0%; height: 100.0%;">Ghaziabad - 704 incidents</div>`)[0];
+                popup_a7d6f4cbab938beaa666b839e4bc7db0.setContent(html_871db38c178bfd0b6b8ee13f99458d63);
+            
+        
+
+        marker_d27aa0d0a8041901b34b1df0b3eb6d3f.bindPopup(popup_a7d6f4cbab938beaa666b839e4bc7db0)
+        ;
+
+        
+    
+    
+            var marker_31d1f7582452f3ccb24270f6d6b2ed54 = L.marker(
+                [22.7203616, 75.8681996],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_477c46b967bc5a494960ab8cfd24b1c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3548f6044d48f4f6469942cfc4ccb4f4 = $(`<div id="html_3548f6044d48f4f6469942cfc4ccb4f4" style="width: 100.0%; height: 100.0%;">Indore - 699 incidents</div>`)[0];
+                popup_477c46b967bc5a494960ab8cfd24b1c1.setContent(html_3548f6044d48f4f6469942cfc4ccb4f4);
+            
+        
+
+        marker_31d1f7582452f3ccb24270f6d6b2ed54.bindPopup(popup_477c46b967bc5a494960ab8cfd24b1c1)
+        ;
+
+        
+    
+    
+            var marker_c8b90c8a08f56aafa652eb6a0dfaf7a1 = L.marker(
+                [25.6093239, 85.1235252],
+                {
+}
+            ).addTo(marker_cluster_e7d738c9bb55c252606806968d633457);
+        
+    
+        var popup_304e9eaa1f6e2907b0fa1cd1a5a6a119 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c98a8e23a5034b87c45b407219949f7 = $(`<div id="html_7c98a8e23a5034b87c45b407219949f7" style="width: 100.0%; height: 100.0%;">Patna - 695 incidents</div>`)[0];
+                popup_304e9eaa1f6e2907b0fa1cd1a5a6a119.setContent(html_7c98a8e23a5034b87c45b407219949f7);
+            
+        
+
+        marker_c8b90c8a08f56aafa652eb6a0dfaf7a1.bindPopup(popup_304e9eaa1f6e2907b0fa1cd1a5a6a119)
+        ;
+
+        
+    
+    
+            marker_cluster_e7d738c9bb55c252606806968d633457.addTo(map_625664e762836b457c74b35f9744be47);
+        
+</script>
+</html>
