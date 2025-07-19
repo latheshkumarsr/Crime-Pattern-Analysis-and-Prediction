@@ -104,3 +104,7 @@ Open the relevant Jupyter Notebook files (e.g., `crime_prediction_analysis.ipynb
 
 ### Contributing
 Contributions are welcome! If you have suggestions for improvements, new features, or bug fixes, please open an issue or submit a pull request.
+
+## output
+![Represtion by Confusion Matrix](https://github.com/latheshkumarsr/Crime-Pattern-Analysis-and-Prediction/blob/main/7.png)
+![Represtion by Map_ploting](https://github.com/latheshkumarsr/Crime-Pattern-Analysis-and-Prediction/blob/main/9.png)
